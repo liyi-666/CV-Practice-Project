@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(set KMP_DUPLICATE_LIB_OK=TRUE)",
+      "Bash(python:*)"
+    ]
+  }
+}
