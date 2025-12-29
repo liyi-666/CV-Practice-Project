@@ -1,49 +1,8 @@
-# 大模型文件
-*.pth
-*.onnx
-*.dat
-*.pb
-*.h5
-*.hdf5
-*.ckpt
-*.bin
-
-# 具体的大文件路径
-facelearning/models/bisenet/79999_iter.pth
-facelearning/models/dlib/shape_predictor_68_face_landmarks.dat
-facelearning/models/insightface/models/buffalo_l/1k3d68.onnx
-facelearning/models/insightface/models/buffalo_l/w600k_r50.onnx
-facelearning/models/insightface/models/
-
-# 数据集文件
-*.jpg
-*.jpeg
-*.png
-*.npy
-*.npz
-
-# 临时文件和缓存
-__pycache__/
-*.pyc
-.idea/
-.vscode/
-
-# 其他
-.DS_Store
-Thumbs.db
-*.log
-
-# ========== 大模型文件（因大小限制不存储在GitHub）==========
-# 这些文件需要从云盘下载，详见README.md
-
-# dlib 68点关键点检测模型
+# 大模型文件（外部存储）
 shape_predictor_68_face_landmarks.dat
-
-# BiSeNet人脸解析模型
-models/bisenet/79999_iter.pth
-
-# InsightFace模型
-models/insightface/models/
+models/bisenet/
+models/insightface/
+models/dlib/
 
 # 所有大文件类型
 *.pth
@@ -51,4 +10,10 @@ models/insightface/models/
 *.dat
 *.pb
 *.h5
-*.hdf5
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 临时文件
+*.sh
