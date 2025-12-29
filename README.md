@@ -8,3 +8,8 @@
 - 人脸美颜与滤镜
 - 3D人脸重建
 - 图形用户界面
+
+facelearning\models：
+链接：https://pan.baidu.com/s/1Atg6ufkC2us9T3kwFkPefw 
+提取码：6666 
+--来自百度网盘超级会员V4的分享
