@@ -1,0 +1,34 @@
+# 大模型文件
+*.pth
+*.onnx
+*.dat
+*.pb
+*.h5
+*.hdf5
+*.ckpt
+*.bin
+
+# 具体的大文件路径
+facelearning/models/bisenet/79999_iter.pth
+facelearning/models/dlib/shape_predictor_68_face_landmarks.dat
+facelearning/models/insightface/models/buffalo_l/1k3d68.onnx
+facelearning/models/insightface/models/buffalo_l/w600k_r50.onnx
+facelearning/models/insightface/models/
+
+# 数据集文件
+*.jpg
+*.jpeg
+*.png
+*.npy
+*.npz
+
+# 临时文件和缓存
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# 其他
+.DS_Store
+Thumbs.db
+*.log
