@@ -32,3 +32,23 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *.log
+
+# ========== 大模型文件（因大小限制不存储在GitHub）==========
+# 这些文件需要从云盘下载，详见README.md
+
+# dlib 68点关键点检测模型
+shape_predictor_68_face_landmarks.dat
+
+# BiSeNet人脸解析模型
+models/bisenet/79999_iter.pth
+
+# InsightFace模型
+models/insightface/models/
+
+# 所有大文件类型
+*.pth
+*.onnx
+*.dat
+*.pb
+*.h5
+*.hdf5
